@@ -1,8 +1,11 @@
 import React from 'react'
+import GameList from '../components/GameList';
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div>
+      <GameList />
+    </div>
   )
 }
 
